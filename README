@@ -1,6 +1,6 @@
 des21xx - D-Link DES-2108/2110 management utility.
 
-Usage: des21xx [-h] [-t timeout] [-I interface] [-p password] command
+Usage: des21xx [-h] [-t timeout] [-p password] command
 Options:
     -t, --timeout=TIMEOUT           timeout, ms, default: 3000
     -p, --password=password         switch password
