@@ -1,0 +1,17 @@
+des21xx - D-Link DES-2108/2110 management utility.
+
+Usage: des21xx [-h] [-t timeout] [-I interface] [-p password] command
+Options:
+    -t, --timeout=TIMEOUT           timeout, ms, default: 3000
+    -p, --password=password         switch password
+Commands:
+    [iface <iface>] scan            - scan interface
+    switch <ip> show                - show switch info
+    switch <ip> passwd [pass]       - Change password
+    switch <ip> fwupgrade <file>    - Upgrade firmware
+    switch <ip> config ipif dhcp    - set DHCP
+    switch <ip> config ipif <new_ip>/<mask> gw <gw> - set ip address
+    switch <ip> config nameloc <name> <location>    - set system name, location 
+
+
+http://forum.dlink.ru/viewtopic.php?t=123443
